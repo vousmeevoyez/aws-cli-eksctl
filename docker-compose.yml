@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+  aws_eksctl:
+    env_file: .env
+    build: .
